@@ -9,8 +9,16 @@
 </script>
 
 <section class="text-center w-full h-screen bg-gradient-to-b from-indigo to-red">
-	<div class="flex flex-col items-center w-full h-full p-8 gap-8">
-		<img width="200px" src="logo.png" alt="Halloy" />
+	<div class="flex flex-col items-center justify-center w-full h-full gap-6">
+		<div class="relative">
+			<img width="700px" src="animation.gif" alt="Halloy" class="rounded-3xl opacity-80" />
+			<img
+				width="200px"
+				src="logo.png"
+				alt="Halloy"
+				class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+			/>
+		</div>
 		<div class="flex flex-col items-center gap-1 text-white">
 			<p class="text-4xl font-rubik font-bold">Halloy</p>
 			<p class="text-md font-rubik text-peach">The cross-platform IRC client written in Rust</p>
@@ -29,7 +37,6 @@
 				Configuration
 			</button>
 		</div>
-		<img width="700px" src="animation.gif" alt="Halloy" class="rounded-lg" />
 	</div>
 </section>
 
