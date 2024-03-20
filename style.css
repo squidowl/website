@@ -20,6 +20,18 @@ body {
     max-width: 500px;
 }
 
+.rounded-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f6b6c928;
+    background-color: #f6b6c918;
+    border-radius: 5px;
+    padding: 16px 16px 20px 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .rounded-button {
     margin-top: 10px;
     background-color: #332A3C;
@@ -35,9 +47,29 @@ body {
     background-color: #4D425E;
 }
 
+.authors {
+    margin-top: 20px;
+    font-size: smaller;
+    font-style: italic;
+    color: #ffd9ce5d;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #ffd9ce93;
+}
+
+.project-title {
+    font-size: x-large;
+    font-weight: bold;
+    color: #f8eae6d5;
+}
+
 p {
     margin-top: 8px;
-    color: #FFD9CE;
+    color: #ffd9ced0;
 }
 
 a {
