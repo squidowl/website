@@ -32,19 +32,9 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.rounded-button {
-    margin-top: 10px;
-    background-color: #332A3C;
-    color: #FFD9CE;
-    border: none;
-    border-radius: 20px;
-    padding: 8px 28px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.rounded-button:hover {
-    background-color: #4D425E;
+.rounded-project-container:hover {
+    background-color: #4d425e23;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .authors {
